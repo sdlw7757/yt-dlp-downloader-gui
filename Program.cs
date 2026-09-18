@@ -113,7 +113,7 @@ namespace YtDlpGuiMvp
             headerRow.Controls.Add(title, 0, 0);
 
             var githubLink = new LinkLabel();
-            githubLink.Text = "Gitee 仓库";
+            githubLink.Text = "GitHub 仓库";
             githubLink.AutoSize = true;
             githubLink.Dock = DockStyle.None;
             githubLink.Anchor = AnchorStyles.Right | AnchorStyles.Top;
@@ -126,7 +126,7 @@ namespace YtDlpGuiMvp
             {
                 try
                 {
-                    var startInfo = new ProcessStartInfo("https://gitee.com/sdlw53953/yt-dlp-downloader-gui");
+                    var startInfo = new ProcessStartInfo("https://github.com/sdlw7757/yt-dlp-downloader-gui");
                     startInfo.UseShellExecute = true;
                     Process.Start(startInfo);
                 }

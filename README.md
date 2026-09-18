@@ -2,13 +2,13 @@
 
 这是一个面向普通 Windows 用户的 yt-dlp 图形界面。它把复制链接、选择 MP4/MP3/SRT、分类保存和 Cookies 选项放进一个窗口，不要求用户输入命令。本项目不是 yt-dlp 官方产品。
 
-项目主页（Gitee）：<https://gitee.com/sdlw53953/yt-dlp-downloader-gui>
+项目主页（GitHub）：<https://github.com/sdlw7757/yt-dlp-downloader-gui>
 
 公开版是轻量便携包，**不随包重新分发 yt-dlp、FFmpeg 或 Deno 的二进制文件**。第一次运行时，程序会询问是否从各项目的官方发布地址下载所需组件；安装完成后，所有文件都留在程序目录，不修改系统 PATH，也不需要管理员权限。
 
 ## 第一次使用
 
-1. 完整解压 Gitee Release 中的 `yt-dlp-gui-v0.5-windows-x64.zip`，不要直接在压缩包里运行。
+1. 完整解压 GitHub Release 中的 `yt-dlp-gui-v0.5-windows-x64.zip`，不要直接在压缩包里运行。
 2. 双击 `yt-dlp-gui.exe`。
 3. 首次运行会列出缺少的组件。点击“是”后开始下载，完整下载量约 250 MB，FFmpeg 文件较大，请耐心等待。
 4. 程序依次下载、核对官方 SHA-256、检查 Windows 可执行文件格式，再放入程序目录。下载或校验失败的文件不会安装。
@@ -48,7 +48,7 @@
 - 组件只通过代码中列出的 HTTPS 地址下载，并在安装前验证对应官方 SHA-256。
 - 下载过程不会生成或上传 `cookies.txt`；需要时由 yt-dlp 直接读取本机 Firefox 数据。
 - 安装缓存和 yt-dlp 运行临时文件放在程序目录的工作文件夹中，正常结束后组件下载缓存会删除。
-- 本程序没有代码签名，Windows 第一次运行可能显示 SmartScreen 提示。请从项目自己的 Gitee Release 下载，并核对 Release 提供的 SHA-256。
+- 本程序没有代码签名，Windows 第一次运行可能显示 SmartScreen 提示。请从项目自己的 GitHub Release 下载，并核对 Release 提供的 SHA-256。
 - 请仅下载你有权访问和使用的内容，遵守网站条款和当地法律。
 
 ## 已知限制
