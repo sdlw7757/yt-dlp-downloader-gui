@@ -2,7 +2,8 @@
 
 这是一个面向普通 Windows 用户的 yt-dlp 图形界面。它把复制链接、选择 MP4/MP3/SRT、分类保存和 Cookies 选项放进一个窗口，不要求用户输入命令。本项目不是 yt-dlp 官方产品。
 
-项目主页（GitHub）：<https://github.com/sdlw7757/yt-dlp-downloader-gui>
+<img width="960" height="760" alt="ui-preview-v0 5" src="https://github.com/user-attachments/assets/a27ecc5e-8629-4f6d-8162-73cdc11b2d40" />
+
 
 公开版是轻量便携包，**不随包重新分发 yt-dlp、FFmpeg 或 Deno 的二进制文件**。第一次运行时，程序会询问是否从各项目的官方发布地址下载所需组件；安装完成后，所有文件都留在程序目录，不修改系统 PATH，也不需要管理员权限。
 
